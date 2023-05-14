@@ -158,13 +158,13 @@ router.get("/status-update", (req, res) => {
             var transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                  user: 'gujarpa@rknec.edu',
-                  pass: 'Gujar16_03'
+                  user: 'suchaksb@rknec.edu',
+                  pass: 'suchaksaurabh@123'
                 }
               });
               
               var mailOptions = {
-                from: 'gujarpa@rknec.edu',
+                from: 'suchaksb@rknec.edu',
                 to: email,
                 subject: 'Incomplete activity',
                 // html: "<h1>Attention</h1><p>You activity"${JSON.stringify(act)}+"is yet to be completed.! <br>Complete is ASAP"
